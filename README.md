@@ -30,8 +30,14 @@ Inputs follow the Alapaca format:
 
 Below is an instruction that describes a task. Write a response that appropriately completes the request.
 
+```
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
 ### Instruction:
 {instruction}
 
 ### Response:
- 
+```
+
+and in particular, for text to SQL the natural language question has to be formated with a prefix and schema as indicated in the following example:
+```
